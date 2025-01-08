@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+}
+.container-nav {
+   width: 225px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    
+  }
+  .lobster-two-regular {
+    padding: 8px 16px;
+    font-size: 25px;
+    font-family: "Lobster Two", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5px;
+  }
+
+  
+  
+  /* Style container-nav links */
+  .container-nav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+  }
+  
+  /* Style links on mouse-over */
+  .container-nav a:hover {
+    background-color:whitesmoke;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+
+  }
+  /* Style the main content */
+
+
+  @media screen and (max-height: 450px) {
+    .container-nav {padding-top: 15px;}
+    .container-nav a {font-size: 18px;}
+  }
+
+  
+  .container-nav-links{
+   
+    padding-bottom: 20px;
+    font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+    
+  }
+
+.container-main-story-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.container-nav-links-final
+{
+  padding:0px 0px 0px 20px;
+
+}
+.container-nav-links-final img{
+  margin-top: 10px;
+}
+.container-main{
+  padding: 20px;
+  margin-left: 225px;
+    width: 800px;
+}
+
