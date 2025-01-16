@@ -1,8 +1,8 @@
 let todo = "learn JavaScript";
 
 console.log(todo.at(3)); //to get the character at the specified index
-console.log(todo.charAt(8));// to get the character at the specified index
-console.log(todo.charCodeAt(2));// to get the unicode of the character at the specified index
+console.log(todo.charAt(8)); // to get the character at the specified index
+console.log(todo.charCodeAt(2)); // to get the unicode of the character at the specified index
 
 console.log(todo.slice(1, 5));// to get the substring from the specified index end index not included
 console.log(todo.substring(1, 5));// to get the substring from the specified index end not incl
